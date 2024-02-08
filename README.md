@@ -11,7 +11,7 @@ To run this C++ program, you'll need a C++ compiler installed on your system. Th
 3. Execute the compiled program.
 4. Follow the prompts to create and manipulate vectors.
 
-## instruction
+## Instruction
 Upon starting, you will be presented with a menu where you have to choose from given option 1. Enter the size of vector & 2.Proceed the vector. if user choose option  1 then you will be asked for the size of the vector. And if you choose option 2 then you use a sentinel value (-1) to terminate your input in this case.  We create a vector with no initialize size provided until the sentinel value is entered.
 
 ## How to create the vector
@@ -39,3 +39,65 @@ Follow these steps to create and manipulate vectors using the provided C++ progr
 ## Code Structure
 - `display(vector<T> &v)`: Template function to display the contents of a vector.
 - `main()`: Main function containing the program logic.
+### Header Inclusions:
+
+The code begins with the inclusion of the necessary header files:
+cpp
+Copy code
+'''
+#include <iostream>
+#include <vector>
+'''
+These headers provide functionality for input/output operations and vector manipulation, respectively.
+Namespace Declaration:
+
+The code utilizes the std namespace for convenience:
+cpp
+Copy code
+using namespace std;
+This allows the use of standard library components without explicitly specifying the namespace.
+Template Function Definition:
+
+A template function display is defined to display the contents of a vector:
+cpp
+Copy code
+template <class T>
+void display(vector<T> &v){
+    // Function implementation
+}
+Main Function Definition:
+
+The main() function serves as the entry point of the program:
+cpp
+Copy code
+int main(){
+    // Function implementation
+    return 0;
+}
+It contains the program logic for creating, populating, displaying, and manipulating vectors.
+Vector Creation and Manipulation:
+
+Within the main() function, vectors of different data types (int, float, string, double, char) are created and manipulated based on user input.
+User Input Handling:
+
+The program interacts with the user to gather input for vector creation:
+Users can choose to specify the size of the vector or proceed without specifying the size.
+Input validation and error handling are implemented to ensure proper program execution.
+Display Function Invocation:
+
+After vector creation and manipulation, the display() function is invoked to print the contents of each vector.
+Looping and Control Flow:
+
+The program utilizes loops (for and while) and control flow statements (if, else if, else, goto) to manage user input, vector creation, and manipulation.
+Error Handling:
+
+Error handling mechanisms are implemented to handle invalid user input and unexpected scenarios gracefully.
+Code Comments:
+
+Inline comments are provided throughout the code to enhance readability and explain the purpose of specific sections or statements.
+Functionality Encapsulation:
+
+The code encapsulates functionality into reusable components (such as the display function) and modularizes the program logic.
+Clean Program Exit:
+
+The main() function returns 0 to indicate successful program termination.
