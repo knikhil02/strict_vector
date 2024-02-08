@@ -20,12 +20,17 @@ Upon execution, the program will prompt you with two options:
 2. Proceed without specifying the size.
 
 (Option 1):
--If you choose to enter the size of your vector, input the desired size when prompted.
+
+If you choose to enter the size of your vector, input the desired size when prompted.
+
 After specifying the size, you will be prompted to choose the data type for your vector:
+
 1. int    2. float    3. string    4. double    5. char
+ 
 Proceed to enter the elements for your chosen data type. For each element, the program will prompt you accordingly.
 
 (Option 2):
+
 If you choose to proceed without specifying the size, enter the elements for your vector. Use -1 as a sentinel value to indicate the end of input.
 
 After creating the vector, you have the option to remove the last element by entering 1 when prompted. Error handling is implemented for invalid input.
