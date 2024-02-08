@@ -42,12 +42,10 @@ Follow these steps to create and manipulate vectors using the provided C++ progr
 ### Header Inclusions:
 
 The code begins with the inclusion of the necessary header files:
-cpp
-Copy code
-'''
+'''cpp
 #include <iostream>
 #include <vector>
-'''
+
 These headers provide functionality for input/output operations and vector manipulation, respectively.
 Namespace Declaration:
 
